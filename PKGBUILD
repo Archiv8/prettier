@@ -10,8 +10,8 @@
 # @ToDo: Add files: Tooling
 # @FixMe: Namcap warnings and errors
 
-# @Maintainer: Ross Clark <https://github.com/Archiv8/prettier/discussions>
-# @Contributor: Ross Clark <https://github.com/Archiv8/prettier/discussions>
+# Maintainer: Ross Clark <https://github.com/Archiv8/prettier/discussions>
+# Contributor: Ross Clark <https://github.com/Archiv8/prettier/discussions>
 
 pkgname="prettier"
 pkgver=2.7.0
@@ -19,11 +19,18 @@ pkgrel=1
 pkgdesc="An opinionated code formatter for JS, JSON, CSS, YAML and much more"
 arch=("any")
 url="https://prettier.io/"
-license=("MIT")
-depends=("nodejs")
+license=(
+    "MIT"
+    )
+depends=(
+    "nodejs"
+    )
 makedepends=("yarn")
-source=("https://github.com/$pkgname/$pkgname/archive/$pkgver/$pkgname-$pkgver.tar.gz")
-sha512sums=('86c6af269a5d6e15924d8d718ceb534542549ab94d66deade740d1465fa89d79')
+source=(
+    "https://github.com/$pkgname/$pkgname/archive/$pkgver/$pkgname-$pkgver.tar.gz")
+sha512sums=(
+    "2ce31ba3cde2b355224a9121bc37110ea9bb8bfcd1d25099bf28e7ee8d1d78503a6fdb2ff0f4d61097186cffeefc594ba28f710d16f13795de5e8bdadc5e3c7a"
+    )
 
 prepare() {
     cd "$pkgname-$pkgver"

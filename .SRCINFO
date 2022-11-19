@@ -8,6 +8,6 @@ pkgbase = prettier
 	makedepends = yarn
 	depends = nodejs
 	source = https://github.com/prettier/prettier/archive/2.7.0/prettier-2.7.0.tar.gz
-	sha512sums = 86c6af269a5d6e15924d8d718ceb534542549ab94d66deade740d1465fa89d79
+	sha512sums = 2ce31ba3cde2b355224a9121bc37110ea9bb8bfcd1d25099bf28e7ee8d1d78503a6fdb2ff0f4d61097186cffeefc594ba28f710d16f13795de5e8bdadc5e3c7a
 
 pkgname = prettier
